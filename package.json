@@ -1,6 +1,6 @@
 {
   "name": "@livelybone/use-force-update",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A hook for force update of react",
   "main": "./lib/umd/index.js",
   "module": "./lib/es/index.js",
