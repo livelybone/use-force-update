@@ -12,7 +12,8 @@ const conf = entry => ({
   output: entry.formats.map(format => ({
     file: `./lib/${format}/${entry.name}.js`,
     format,
-    name: entry.name === 'index' ? 'useForceUpdate' : `${entry.name}useForceUpdate`,
+    name:
+      entry.name === 'index' ? 'useForceUpdate' : `${entry.name}useForceUpdate`,
     globals: {
       react: 'React',
       'react-dom': 'ReactDOM',
